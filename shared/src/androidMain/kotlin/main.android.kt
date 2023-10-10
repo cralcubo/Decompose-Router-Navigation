@@ -1,5 +1,4 @@
 import androidx.compose.runtime.Composable
-
-actual fun getPlatformName(): String = "Android"
+import io.github.xxfast.decompose.router.RouterContext
 
 @Composable fun MainView() = App()

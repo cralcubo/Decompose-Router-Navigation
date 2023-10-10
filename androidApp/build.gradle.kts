@@ -4,6 +4,12 @@ plugins {
     id("org.jetbrains.compose")
 }
 
+val decomposeRouterVersion = "0.5.0"
+dependencies {
+    implementation("io.github.xxfast:decompose-router:$decomposeRouterVersion")
+    implementation("androidx.compose.material3:material3:1.1.2")
+}
+
 kotlin {
     androidTarget()
     sourceSets {
